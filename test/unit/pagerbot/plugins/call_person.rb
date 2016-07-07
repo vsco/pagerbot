@@ -1,4 +1,5 @@
 require_relative('../../../_lib')
+require_relative('../mocked_pagerduty_class.rb')
 require 'json'
 
 class CallPerson < Critic::MockedPagerDutyTest
